@@ -1,2 +1,2 @@
-This is a git merge conflict test
+This is a git merge conflict test <br />
 This is me editing conflictTest from github.com
