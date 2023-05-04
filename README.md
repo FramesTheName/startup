@@ -42,7 +42,7 @@ The insight page allows users to view a specific insight and add comments to tha
 The about page gives overall information about thoughtfuldesign.click
 
 ## Data Structures
-### User
+### user
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
@@ -52,17 +52,14 @@ The about page gives overall information about thoughtfuldesign.click
 | projects  | [projectID]  |
 | notifications  | [notification]  |
 
-### User
+### notification
 | Object  | Data Type |
 | ------------- | ------------- |
 | user  | userID  |
 | title  | string  |
 | content  | string  |
-| picutre  | img  |
-| projects  | [projectID]  |
-| notification  | notification  |
 
-### Project
+### project
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
@@ -70,7 +67,7 @@ The about page gives overall information about thoughtfuldesign.click
 | users  | [userID]  |
 | personas  | [persona]  |
 
-### Persona
+### persona
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
@@ -81,7 +78,7 @@ The about page gives overall information about thoughtfuldesign.click
 | insights  | [insight]  |
 | problems  | [problem]  |
 
-### EmpathyMap
+### empathyMap
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
@@ -91,13 +88,13 @@ The about page gives overall information about thoughtfuldesign.click
 | felt  | [empathyPoint]  |
 | thought  | [empathyPoint]  |
 
-### EmpathyPoint
+### empathyPoint
 | Object  | Data Type |
 | ------------- | ------------- |
 | name  | [string]  |
 | content  | [string]  |
 
-### Insight
+### insight
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
@@ -107,7 +104,7 @@ The about page gives overall information about thoughtfuldesign.click
 | content  | string  |
 | comments  | [string]  |
 
-### Problem
+### problem
 | Object  | Data Type |
 | ------------- | ------------- |
 | ID  | const UUID  |
